@@ -5,7 +5,7 @@ public class TesteAutomovel {
     {
     	Automovel automovel = new Automovel();
         System.out.println(automovel.toString());
-        automovel.ligarDesligar(true, false);
+        automovel.ligarDesligar();
     }
 
 }

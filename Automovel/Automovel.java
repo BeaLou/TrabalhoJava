@@ -23,15 +23,17 @@ public class Automovel {
         this.Quilometragem = Integer.parseInt(JOptionPane.showInputDialog("Quilômetros percorridos: "));
 	}
 	
-    public void ligarDesligar(boolean liga, boolean desliga)
+    public void ligarDesligar()
     {
-		if (Ligado == true) {
+        int opcao = Integer.parseInt(JOptionPane.showInputDialog(null,"Carro ligado? (1) - Sim e (2) - Não"));
+        
+        if (opcao == 1) {
+            Ligado = true;
             System.out.println("Carro ligado!");
-            liga = true;
 		}
-		else if (Ligado == false) {
+		else if (opcao == 2) {
+            Ligado = false;
             System.out.println("\nCarro desligado!");
-            desliga = true;
         }
     }
 
