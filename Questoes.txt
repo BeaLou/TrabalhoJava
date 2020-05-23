@@ -1,0 +1,163 @@
+Exercícios de LPOO que irão compor 40% da nota única
+
+
+1 (0,5 ponto) Escreva uma classe em Java para as seguintes especificações:
+- Nome da classe: Aluno
+- Atributos
+- RA : String
+- Nome : String
+- Curso : String
+- Escreva um método construtor em Java para a classe Aluno que receba como parâmetros:
+- RA, Nome e Curso
+- Os atributos devem ter receber os valores dos parâmetros
+Escreva uma classe em Java chamada TesteAluno, que contenha um método "main", e instancie 3
+objetos diferentes do "tipo" Aluno.
+
+
+2 (0,5 ponto) Escreva uma classe em Java para as seguintes especificações:
+- Nome da classe: Pessoa
+- Atributos
+- RG : String
+- CPF : String
+- Nome : String
+- Endereço : String
+- Celular : String
+- Email : String
+- Altura : double
+- Peso : double
+- Sexo : char
+- Idade : int
+- Métodos:
+- Criar um método construtor que receba todas as informações (atributos) para a classe
+Escreva uma classe em Java chamada TestePessoa, que contenha um método "main", e Instancie 3
+objetos diferentes do "tipo" Pessoa.
+
+
+3 (0,5 ponto) Escreva uma classe em Java para as seguintes especificações:
+- Nome da classe: Automovel
+- Atributos
+- Placa : String
+- Cor : String
+- Nr Portas : int
+- Combustível : String
+- Quilometragem : long
+- Renavam : String
+- Chassi : String
+- Nr Marchas : int
+- Ligado : boolean
+- Velocidade : int
+- Métodos:
+- Criar um método construtor que receba todas as informações (atributos) para a classe
+- ligarDesligar(boolean ligaDesliga)
+- Ligar Ligado = true
+- Desligar Ligado = false
+Escrever uma classe Teste que realizará a chamada de todos os métodos, permitindo a verificação do
+funcionamento dos mesmos.
+
+
+4 (0,5 ponto) Escreva uma classe em Java para as seguintes especificações:
+- Nome da Classe: Lampada
+- Atributos:
+- estado : boolean
+- Métodos
+- ligar()
+- alterar atributo estado para true
+- desligar()
+- alterar atributo estado para false
+- mostrarEstado()
+Se o estado = true
+Então, mostrar a mensagem “Ligada”
+Senão, mostrar a mensagem “Desligada”
+Escrever uma classe Teste que realizará a chamada de todos os métodos, permitindo a verificação do
+funcionamento dos mesmos.
+
+
+5 (0,5 ponto) Escreva uma classe em Java as seguintes especificações:
+- Nome da Classe: Carro
+- Atributos
+- velocidade : double
+- Métodos
+- acelerar()
+- Aumentar velocidade em 10
+- freiar()
+- Diminuir velocidade em 10
+- mostrarVelocidade()
+- mostrar o valor da velocidade
+Escrever uma classe Teste que realizará a chamada de todos os métodos, permitindo a verificação do
+funcionamento dos mesmos.
+
+
+6 (0,5 ponto) Escreva uma classe em Java as seguintes especificações:
+- Nome da Classe: Pontuacao
+- Atributos
+- pontosGanhos: int
+- Métodos
+- ganharPartida()
+- Aumentar pontosGanhos em 3
+- empatarPartida()
+- Aumentar pontosGanhos em 3
+- perderPartida()
+- Aumentar pontosGanhos em 0
+Escrever uma classe Teste que realizará a chamada de todos os métodos, permitindo a verificação do
+funcionamento dos mesmos.
+
+
+7 (0,5 ponto) Escreva uma classe em Java as seguintes especificações:
+- Nome da Classe: Relogio
+- Atributos
+- hora: int
+- Métodos
+- adicionarHora()
+- O campo hora é aumentado em 1, desde que não ultrapasse o valor de 23.
+Se hora > 23
+Então atribuir 0 a hora
+- subtrairHora()
+- O campo hora é diminuído em 1, desde que não fique negativo.
+Se hora < 0
+Então atribuir 23 a hora
+- mostrarHora()
+- mostrar o valor da hora
+Escrever uma classe Teste que realizará a chamada de todos os métodos, permitindo a verificação do
+funcionamento dos mesmos.
+
+
+8 (0,5 ponto) Escreva uma classe em Java as seguintes especificações:
+- Nome da Classe: Telefone
+- Atributos
+- numeroMinutos : int – valor inicial 0
+- preco : double – valor inicial 2.0
+- Métodos
+- duracaoLigacao(int vl)
+- Adiciona o “vl” (parâmetro de entrada do método) ao atributo
+“numeroMinutos”
+- alterarPreco(double prc)
+- Altera o atributo “preco” para o valor do parâmetro “prc”
+- mostrarConta()
+- mostrar o valor da atual da conta telefônica numMinutos * preco
+Escrever uma classe Teste que realizará a chamada de todos os métodos, permitindo a verificação do
+funcionamento dos mesmos.
+
+
+9 (0,5 ponto) Escreva uma classe em Java as seguintes especificações:
+- Nome da Classe: Ordem
+- Atributos
+- x : int
+- y : int
+- z : int
+- Métodos
+- Ordem (int a, int b, int c)
+- Construtor com parâmetros
+- Atribuir parâmetros aos atributos da classe
+- mostrarMaior()
+- Indicar qual atributo possuí o maior valor (x, y ou z) e mostrar qual é o valor
+- mostrarMenor()
+- Indicar qual atributo possuí o menor valor (x, y ou z) e mostrar qual é o valor
+- mostrarCrescente()
+- Mostrar em ordem crescente os valores contidos em x, y e z
+- mostrarDecrescente()
+- Mostrar em ordem decrescente os valores contidos em x, y e z
+Escrever uma classe Teste que realizará a chamada de todos os métodos, permitindo a verificação do
+funcionamento dos mesmos.
+
+
+10. (0,5 ponto) Class for a complex numbers. Write a class named ComplexNum for recording a complex number. The class must have two double instance variables, real and imaginary. An object of this class represents the complex number real + imaginary * i (where i is the root of ). Write the instance method size that returns, in double, the value of real2−imaginary2. Write a class for testing it.
